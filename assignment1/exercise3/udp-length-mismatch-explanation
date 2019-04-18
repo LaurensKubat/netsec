@@ -1,0 +1,3 @@
+according to rfc 786 (https://tools.ietf.org/html/rfc768)the length field in the udp
+header is the length of the udp header and the data, thus the data_length will always
+be the actual length of the data + an udp header.
